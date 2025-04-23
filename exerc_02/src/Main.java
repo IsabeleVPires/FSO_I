@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Mamifero leao = new Mamifero("Leão", Habitat.TERRESTRE, 5, "Amarela");
-        Ave arara = new Ave("Arara", Habitat.AEREO, 2, "Colorida");
+        Mamifero golfinho = new Mamifero("Golfinho", Habitat.AQUATICO, 8, "Cinza");
+        Ave pinguim = new Ave("Pinguim", Habitat.AQUATICO, 3, "Preto e branco");
 
-        leao.emitirSom();
-        leao.mover();
-        leao.exibirDetalhes();
+        golfinho.emitirSom();
+        golfinho.mover();
+        golfinho.exibirDetalhes();
 
         System.out.println();
 
-        arara.emitirSom();
-        arara.mover();
-        arara.exibirDetalhes();
+        pinguim.emitirSom();
+        pinguim.mover();
+        pinguim.exibirDetalhes();
     }
 }
